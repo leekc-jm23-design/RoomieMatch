@@ -1,0 +1,9 @@
+{
+  "name": "roomiematch",
+  "version": "1.0.0",
+  "description": "Room seeker search experience with campus filtering",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -3,6 +3,7 @@ const queryInput = document.getElementById('query-input');
 const resultsList = document.getElementById('results-list');
 const resultsSummary = document.getElementById('results-summary');
 const searchForm = document.getElementById('search-form');
+let searchTimeout;
 
 async function loadCampuses() {
   const response = await fetch('/api/campuses');
@@ -51,6 +52,10 @@ function renderResults(listings) {
 }
 
 searchForm.addEventListener('submit', searchListings);
+queryInput.addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => searchListings(), 250);
+});
 
 window.addEventListener('DOMContentLoaded', async () => {
   await loadCampuses();

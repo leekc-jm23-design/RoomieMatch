@@ -80,6 +80,33 @@ button {
   font: inherit;
 }
 
+.autocomplete-wrapper {
+  position: relative;
+}
+
+.autocomplete-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #d9e4ff;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 10px 24px rgba(20, 33, 61, 0.12);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.autocomplete-item {
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  background: #eef4ff;
+}
+
 button {
   background: #3867d6;
   color: #fff;

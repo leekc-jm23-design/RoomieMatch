@@ -25,7 +25,10 @@
 
           <label class="field field-grow">
             <span>Keywords</span>
-            <input id="query-input" name="query" type="text" placeholder="e.g. private room, shared, studio" />
+            <div class="autocomplete-wrapper">
+              <input id="query-input" name="query" type="text" placeholder="e.g. private room, shared, studio" autocomplete="off" />
+              <div id="autocomplete" class="autocomplete-list" hidden></div>
+            </div>
           </label>
 
           <button type="submit">Search</button>

@@ -8,3 +8,18 @@
 8|Studio Apartment by Student Village|Main Campus|2.1|690|Studio|Fully furnished apartment suitable for focused study and short commute.
 9|Garden Room Close to North Campus|North Hall|1.1|430|Private Room|Sunny room with shared lounge and easy access to campus shuttle.
 10|Apartment Suite Near Science Park|Science Park|0.9|740|Studio|Modern suite with desk space, high-speed Wi-Fi, and close transit.
+11|Private Toilet in Central House|Main Campus|1.4|520|Private Room|Private toilet and bedroom in a renovated house with great study spaces.
+12|Shared Loft by Arts Building|Arts Campus|0.6|400|Shared Room|Shared loft layout near galleries and student events, includes furniture.
+13|Quiet Private Room Near Library|Main Campus|1.8|510|Private Room|Private room with large windows and quiet study area, close to campus library.
+14|Campus View Shared Room|Engineering Campus|0.9|360|Shared Room|Shared room with campus views and easy bike storage.
+15|Large Studio Above Coffee Shop|North Hall|2.3|720|Studio|Bright studio apartment with kitchenette above a local coffee shop.
+16|Economy Room Near Science Park|Science Park|1.9|340|Shared Room|Great value shared option with shared kitchen and student lounge.
+17|Bright Private Room Near North Campus|North Hall|1.2|495|Private Room|Bright room in a quiet home, includes utilities and fast internet.
+18|Two-Bedroom Shared Apartment|Main Campus|3.0|450|Shared Room|Two-bedroom apartment shared between students, close to campus transit.
+19|Premium Studio in Garden Court|Arts Campus|1.6|780|Studio|Premium studio with garden access, dedicated workspace, and parking.
+20|Private Room in Student Residence|Science Park|0.7|550|Private Room|Private room with ensuite bathroom in a student residence building.
+21|Cozy Shared Room Next to Market|Main Campus|1.5|380|Shared Room|Shared room near the local market, ideal for budget-conscious students.
+22|Modern Private Room by Stadium|Engineering Campus|1.0|600|Private Room|Modern private room with quick access to the campus stadium and gym.
+23|Studio Apartment with Balcony|North Hall|2.0|710|Studio|Studio apartment with balcony, full kitchenette, and plenty of storage.
+24|Bright Shared Room Near Science Park|Science Park|1.4|370|Shared Room|Shared room in a contemporary house, includes desk space and laundry.
+25|Private Room by Campus Shuttle|Main Campus|0.5|530|Private Room|Private room just steps from the campus shuttle stop with full utilities.

@@ -28,7 +28,7 @@ function parseListings() {
 }
 
 function getCampuses(listings) {
-  return Array.from(new Set(listings.map((listing) => listing.campus))).sort();
+  return Array.from(new Set([...listings.map((listing) => listing.campus), 'Penang Branch Campus'])).sort();
 }
 
 function filterListings(listings, campus, query) {

@@ -7,6 +7,14 @@ const searchForm = document.getElementById('search-form');
 let searchTimeout;
 let suggestions = [];
 
+const createEmptyStateMessage = window.createEmptyStateMessage || function ({ listings, campus }) {
+  if (!listings.length && campus) {
+    return 'No room listings found for this campus. Please try another location.';
+  }
+
+  return 'No rooms matched your search yet. Try another campus or keyword.';
+};
+
 async function loadCampuses() {
   const response = await fetch('/api/campuses');
   const data = await response.json();
@@ -52,8 +60,10 @@ async function searchListings(event) {
 }
 
 function renderResults(listings) {
+  const campus = campusFilter.value;
+
   if (!listings.length) {
-    resultsList.innerHTML = '<div class="empty">No rooms matched your search yet. Try another campus or keyword.</div>';
+    resultsList.innerHTML = `<div class="empty">${createEmptyStateMessage({ listings, campus })}</div>`;
     return;
   }
 
